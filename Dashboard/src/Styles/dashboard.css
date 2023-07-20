@@ -1,0 +1,81 @@
+.weekly_sale {
+  position: relative;
+  background: linear-gradient(
+      to right,
+      rgba(255, 122, 120, 0.3),
+      rgba(255, 122, 120, 0.3)
+    ),
+    url("../Assets/dashboard/dashboardhero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 100%;
+  background-position: center;
+}
+
+.weekly_sale::before {
+  content: "";
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  background: linear-gradient(to right, #ffb896, #fe8c96);
+}
+/* weekly_orders */
+.weekly_orders {
+  position: relative;
+  background: linear-gradient(
+      to right,
+      rgba(1, 69, 171, 0.3),
+      rgba(1, 69, 171, 0.3)
+    ),
+    url("../Assets/dashboard/dashboardhero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 100%;
+  background-position: center;
+}
+
+.weekly_orders::before {
+  content: "";
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  background: linear-gradient(to right, #81c2f6, #3398e8);
+}
+/* visitor_online */
+.visitor_online {
+  position: relative;
+  background: linear-gradient(
+      to right,
+      rgba(64, 244, 64, 0.3),
+      rgba(64, 244, 64, 0.3)
+    ),
+    url("../Assets/dashboard/dashboardhero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 100%;
+  background-position: center;
+}
+
+.visitor_online::before {
+  content: "";
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  background: linear-gradient(to right, #48ff7c, #049c43);
+}
+/* visitor_online */
